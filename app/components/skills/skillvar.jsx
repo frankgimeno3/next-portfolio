@@ -1,19 +1,25 @@
-
+1
 import Image from "next/image"
 import React from 'react';
 
-function skillNavigator() {
+function Skillvar() {
     return (
-        <div className='flex flex-col text-left px-12  ml-12 bg-white bg-opacity-5 py-5 rounded-l-lg'>
-            <div className="flex flex-col">
-                <h2 className='font-bold text-2xl text-sky-200'>My main Skills</h2>
-                <p className="italic text-md text-sky-50 "> Select one of the fields below to see my particular skillset on it. Then select any option to see details in the right side</p>
-            </div>
-            
-            <div className="flex flex-row">
+        <>
+            <p className="text-xs text-sky-50 mt-5"> Fields</p>
+            <ul className="flex flex-row justify-center">
+                <button className='py-2  mr-4 mt-2 w-20 bg-sky-50   text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
+                    Frontend
+                </button>                
+                <button className='py-2  mr-4 mt-2 w-20 bg-sky-50   text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
+                    Backend
+                </button>                
+                <button className='py-2 mr-4 mt-2  w-20 bg-sky-50   text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
+                    Other
+                </button>
 
-            </div>
-        </div>
+            </ul>
+        </>
+
     )
 }
-export default MainSkills;
+export default Skillvar;
