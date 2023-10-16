@@ -21,17 +21,17 @@ function Hero() {
             <div className='flex flex-row mt-5'>
               <div className=''>
                 <button className='py-3 w-40 bg-sky-50  text-xs rounded-lg shadow-white hover:scale-110 hover:bg-white text-gray-700 transition-transform duration-1000'>
-                  Contact me
+                  Linkedin
                 </button>
               </div>
               <div className='mx-4'>
                 <button className='py-3 w-40 bg-sky-50   text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
-                  My Skills
+                  Github
                 </button>
               </div>
               <div>
                 <button className='py-3 w-40 bg-sky-50   text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
-                  Portfolio
+                  Download my CV
                 </button>
               </div>
             </div>
