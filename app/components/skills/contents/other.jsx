@@ -3,20 +3,36 @@ import Image from "next/image"
 import React from 'react';
 
 function Other({setSelectedSkill}) {
+    const setFirebase = ()=>{
+        setSelectedSkill("Firebase")
+    }
+    const setNextauth = ()=>{
+        setSelectedSkill("Nextauth")
+    }
+    const setGithub = ()=>{
+        setSelectedSkill("Github")
+    }
+    const setAsana = ()=>{
+        setSelectedSkill("Asana")
+    }
     return (
         <>
-            <p className="py-2"><span className="font-bold">Frontend </span>Technologies</p>
+            <p className="py-2"><span className="font-bold">Other </span>Technologies</p>
             <div className="flex flex-row justify-center mx-auto h-28 my-4">
-                <div className="m-2 rounded-lg shadow-2xl overflow-hidden transform transition duration-1000 hover:scale-110  ">
-                    <Image src={"/languages/ts.png"} alt="" width={100} height={100} className="object-cover" /> </div>
-                <div className="m-2 rounded-lg shadow-2xl overflow-hidden transform transition duration-1000 hover:scale-110  ">
-                    <Image src={"/languages/next.webp"} alt="" width={180} height={200} className="object-cover" /> </div>
+                <div className="m-2 rounded-lg shadow-2xl overflow-hidden transform transition duration-1000 hover:scale-110"
+                onClick={setFirebase}>
+                    <Image src={"/languages/Firebase.jpg"} alt="" width={100} height={100} className="object-cover" /> </div>
+                <div className="m-2 rounded-lg shadow-2xl overflow-hidden transform transition duration-1000 hover:scale-110"
+                onClick={setNextauth}>
+                    <Image src={"/languages/nextauth.png"} alt="" width={200} height={200} className="object-cover" /> </div>
             </div>
             <div className="flex flex-row justify-center mx-auto h-28">
-                <div className="m-2 rounded-lg shadow-2xl overflow-hidden transform transition duration-1000 hover:scale-110 hover:shadow-2xl ">
-                    <Image src={"/languages/ft.png"} alt="" width={200} height={150} className="object-cover" /> </div>
-                <div className="m-2 rounded-lg shadow-2xl overflow-hidden transform transition duration-1000 hover:scale-110 hover:shadow-2xl">
-                    <Image src={"/languages/tw.png"} alt="" width={180} height={200} className="object-cover " /> </div>
+                <div className="m-2 rounded-lg shadow-2xl overflow-hidden transform transition duration-1000 hover:scale-110 hover:shadow-2xl"
+                onClick={setGithub}>
+                    <Image src={"/languages/github.jpg"} alt="" width={145} height={100} className="object-cover" /> </div>
+                <div className="m-2 rounded-lg shadow-2xl overflow-hidden transform transition duration-1000 hover:scale-110 hover:shadow-2xl"
+                 onClick={setAsana}>
+                    <Image src={"/languages/asana.png"} alt="" width={150} height={100} className="object-cover " /> </div>
             </div>
         </>
     )
