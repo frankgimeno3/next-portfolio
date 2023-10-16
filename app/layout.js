@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-       <Navigation className="z-10"/>
+       <Navigation />
       <div class="bg-gradient-to-r from-blue-950 to-slate-950 py-4  min-h-screen ">
         {children}
         </div>
