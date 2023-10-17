@@ -1,6 +1,7 @@
 import MainSkills from './components/skills/mainSkills';
 import Hero from "./components/Hero"
 import Aboutme from './components/Aboutme';
+import MyCustomers from './components/MyCustomers';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Hero/>
         <MainSkills />
         <Aboutme/>
+        <MyCustomers/>
 
       </div>
       <video
