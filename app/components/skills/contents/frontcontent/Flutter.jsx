@@ -5,10 +5,9 @@ import React from 'react';
 function Flutter( ) {
     return (
         <div className="my-auto">
-        <p><span className="font-bold">Flutter</span> is a web application framework for Node.js that simplifies the creation of robust and scalable web applications.</p>
-        <p>I use Express to create my own restful APIs, connecting to MongoDB databases to execute CRUD (Create, Read, Update, Delete) operations.</p>
-        <p>However, recently, I have been transitioning into Next.js backend functionalities, which allow fullstack developement using backend cloud tools like Firebase.</p>
-        </div>
+        <p><span className="font-bold">Flutter</span> is a UI framework developed by Google that enables developers to create applications for mobile, web, and desktop from a single codebase using the <span>Dart</span> programming language.</p>
+        <p>I use Flutter to create simple mobile apps, using my own backend and Restful apis created with <span>Express</span></p>
+         </div>
     )
 }
 export default Flutter;

@@ -5,9 +5,10 @@ import React from 'react';
 function Github( ) {
     return (
         <div className="my-auto">
-        <p><span className="font-bold">Github</span> is a web application framework for Node.js that simplifies the creation of robust and scalable web applications.</p>
-        <p>I use Express to create my own restful APIs, connecting to MongoDB databases to execute CRUD (Create, Read, Update, Delete) operations.</p>
-        <p>However, recently, I have been transitioning into Next.js backend functionalities, which allow fullstack developement using backend cloud tools like Firebase.</p>
+        <p><span className="font-bold">Github</span> I started using github for collaborative projects in Ironhack bootcamp, and 
+        since then I have been using it almost daily. </p>
+        <p>I know how to manage individual and group projects, using different branches and different roles</p>
+        <p>I also understand how to deploy projects using <span>Vercel</span>, debugging to solve on-build bugs</p>
         </div>
     )
 }

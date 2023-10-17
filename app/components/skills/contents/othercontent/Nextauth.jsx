@@ -5,9 +5,8 @@ import React from 'react';
 function Nextauth( ) {
     return (
         <div className="my-auto">
-        <p><span className="font-bold">Nextauth</span> is a web application framework for Node.js that simplifies the creation of robust and scalable web applications.</p>
-        <p>I use Express to create my own restful APIs, connecting to MongoDB databases to execute CRUD (Create, Read, Update, Delete) operations.</p>
-        <p>However, recently, I have been transitioning into Next.js backend functionalities, which allow fullstack developement using backend cloud tools like Firebase.</p>
+        <p><span className="font-bold">Nextauth</span> is my fauvorite authentication library. It connects your frontend with a cloud database, by filling a configuration blueprint and with some pre-build functions.</p>
+        <p>NextAuth is a great way to save time and money, also making safer the authentication, and giving a better access to the session elements.</p>
         </div>
     )
 }

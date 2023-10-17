@@ -5,9 +5,9 @@ import React from 'react';
 function Mongo( ) {
     return (
         <div className="my-auto">
-        <p><span className="font-bold">Mongo</span> is a web application framework for Node.js that simplifies the creation of robust and scalable web applications.</p>
-        <p>I use Express to create my own restful APIs, connecting to MongoDB databases to execute CRUD (Create, Read, Update, Delete) operations.</p>
-        <p>However, recently, I have been transitioning into Next.js backend functionalities, which allow fullstack developement using backend cloud tools like Firebase.</p>
+        <p><span className="font-bold">Mongo</span>  is a NoSQL database system that stores unstructured data in a document-oriented 
+        format.</p>
+        <p>I deploy my Mongo Databases with <span>Atlas</span>, a database-as-a-service platform offering cloud-based hosting and management for MongoDB databases, streamlining operations and providing features like automated backups and security controls for a hassle-free database experience.</p>
         </div>
     )
 }

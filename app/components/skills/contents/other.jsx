@@ -12,8 +12,8 @@ function Other({setSelectedSkill}) {
     const setGithub = ()=>{
         setSelectedSkill("Github")
     }
-    const setAsana = ()=>{
-        setSelectedSkill("Asana")
+    const setJira = ()=>{
+        setSelectedSkill("Jira")
     }
     return (
         <>
@@ -31,8 +31,8 @@ function Other({setSelectedSkill}) {
                 onClick={setGithub}>
                     <Image src={"/languages/github.jpg"} alt="" width={145} height={100} className="object-cover" /> </div>
                 <div className="m-2 rounded-lg shadow-2xl overflow-hidden transform transition duration-1000 hover:scale-110 hover:shadow-2xl"
-                 onClick={setAsana}>
-                    <Image src={"/languages/asana.png"} alt="" width={150} height={100} className="object-cover " /> </div>
+                 onClick={setJira}>
+                    <Image src={"/languages/jira.png"} alt="" width={200} height={100} className="object-cover " /> </div>
             </div>
         </>
     )

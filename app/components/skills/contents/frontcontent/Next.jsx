@@ -5,10 +5,9 @@ import React from 'react';
 function Next( ) {
     return (
         <div className="my-auto">
-        <p><span className="font-bold">Next</span> is a web application framework for Node.js that simplifies the creation of robust and scalable web applications.</p>
-        <p>I use Express to create my own restful APIs, connecting to MongoDB databases to execute CRUD (Create, Read, Update, Delete) operations.</p>
-        <p>However, recently, I have been transitioning into Next.js backend functionalities, which allow fullstack developement using backend cloud tools like Firebase.</p>
-        </div>
+        <p><span className="font-bold">Next</span> is a <span>React</span> framework designed for building web applications with a strong emphasis on server-side rendering (SSR) and client-side rendering (CSR). It offers a powerful and intuitive file-based routing system, enabling developers to easily create web pages, and provides the flexibility to choose between SSR and CSR, enhancing both initial loading speed and SEO benefits while allowing for dynamic client-side interactions.</p>
+        <p>I started using Next13 (2022 version) as it was the first version to implement backend functionalities in a frontend framework, such as API endpoints.       </p>
+          </div>
     )
 }
 export default Next;

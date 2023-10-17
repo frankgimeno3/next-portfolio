@@ -5,10 +5,10 @@ import React from 'react';
 function Typescript( ) {
     return (
         <div className="my-auto">
-        <p><span className="font-bold">Typescript</span> is a web application framework for Node.js that simplifies the creation of robust and scalable web applications.</p>
-        <p>I use Express to create my own restful APIs, connecting to MongoDB databases to execute CRUD (Create, Read, Update, Delete) operations.</p>
-        <p>However, recently, I have been transitioning into Next.js backend functionalities, which allow fullstack developement using backend cloud tools like Firebase.</p>
-        </div>
+        <p><span className="font-bold">Typescript</span> is a statically typed superset of JavaScript from Microsoft that adds optional static type annotations to the language. </p>
+        <p>Developing with TypeScript involves creating interfaces and specifying the expected prop content type for each component, which helps identify errors when inconsistencies 
+            are discovered. This approach facilitates the development of robust and more maintainable code, making it particularly well-suited for large projects developed by teams.</p>
+         </div>
     )
 }
 export default Typescript;

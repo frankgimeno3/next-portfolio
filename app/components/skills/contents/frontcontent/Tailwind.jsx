@@ -5,9 +5,9 @@ import React from 'react';
 function Tailwind( ) {
     return (
         <div className="my-auto">
-        <p><span className="font-bold">Tailwind</span> is a web application framework for Node.js that simplifies the creation of robust and scalable web applications.</p>
-        <p>I use Express to create my own restful APIs, connecting to MongoDB databases to execute CRUD (Create, Read, Update, Delete) operations.</p>
-        <p>However, recently, I have been transitioning into Next.js backend functionalities, which allow fullstack developement using backend cloud tools like Firebase.</p>
+        <p><span className="font-bold">Tailwind</span> is a utility-first CSS framework that simplifies web development by providing a set of utility classes for styling HTML elements. </p>
+        <p>It's my fauvorite CSS framework for it's simplicity, flexibility, and it's "mobile-first" design system.</p>
+        <p>I fell in love with it working for SoftwareExperts, where I discovered how much time it saves when building responsive designs.</p>
         </div>
     )
 }

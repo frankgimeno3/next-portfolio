@@ -11,7 +11,7 @@ import Next from "./contents/frontcontent/Next"
 import Tailwind from "./contents/frontcontent/Tailwind"
 import Typescript from "./contents/frontcontent/Typescript"
 
-import Asana from "./contents/othercontent/Asana"
+import Jira from "./contents/othercontent/Jira"
 import Firebase from "./contents/othercontent/Firebase"
 import Github from "./contents/othercontent/Github"
 import Nextauth from "./contents/othercontent/Nextauth"
@@ -29,7 +29,7 @@ function Skillrendering({selectedSkill}) {
             {selectedSkill === "Tailwind" && <Tailwind/>}
             {selectedSkill === "Typescript" && <Typescript/>}
 
-            {selectedSkill === "Asana" && <Asana/>}
+            {selectedSkill === "Jira" && <Jira/>}
             {selectedSkill === "Firebase" && <Firebase/>}
             {selectedSkill === "Github" && <Github/>}
             {selectedSkill === "Nextauth" && <Nextauth/>}

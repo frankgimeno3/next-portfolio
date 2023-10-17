@@ -5,9 +5,9 @@ import React from 'react';
 function NextBack( ) {
     return (
         <div className="my-auto">
-        <p><span className="font-bold">Next</span> is a web application framework for Node.js that simplifies the creation of robust and scalable web applications.</p>
-        <p>I use Express to create my own restful APIs, connecting to MongoDB databases to execute CRUD (Create, Read, Update, Delete) operations.</p>
-        <p>However, recently, I have been transitioning into Next.js backend functionalities, which allow fullstack developement using backend cloud tools like Firebase.</p>
+        <p><span className="font-bold">Next.js 13</span> is a full-stack React framework that can be used to build both frontend and backend applications. </p>
+        <p>Next.js backend includes using Serverless functions, File system routing, API endpoints, middleware, SSR data fetching and CSR data fetching.</p>
+        <p>Next.js APIs are useful to manage user authentication, data management and file management</p>
         </div>
     )
 }
