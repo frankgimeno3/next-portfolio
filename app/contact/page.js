@@ -1,15 +1,13 @@
  
 "use client"
 import ContactMe from "../components/ContactMe"
-import Email from "./Email"
-
+ 
 export default function Contact() {
   return (
     <div className='mt-8 relative'>
       <div className='relative z-10'>
         <ContactMe/>
-        <Email/>
-      </div>
+       </div>
       <video
         autoPlay
         loop
