@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import Pompeia from "./projects/Pompeia.jsx"
+import Colornauts from "./projects/Colornauts.jsx"
+import Giru from "./projects/Giru.jsx"
+import Vidrioku from "./projects/Vidrioku.jsx"
+
 export default function Porfolio() {
   return (
     <div className='mt-8 relative'>
@@ -18,10 +22,11 @@ export default function Porfolio() {
         </button>
         </div>
         <Pompeia/>
+        <Giru/>
+        <Vidrioku/>
  
-        <p>Giru.es</p>
-        <p>Vidrioku.com</p>
-        <p>Colornauts</p>
+      
+        <Colornauts/>
 
       </div>
       <video

@@ -1,7 +1,7 @@
 
 'use client'
 import Image from 'next/image';
-
+import Link from 'next/link';
 
 function Pompeia() {
 
@@ -14,6 +14,7 @@ function Pompeia() {
         <h2 className='italic text-md text-sky-50'>2 full stack web projects</h2>
         <p className='text-sm mt-5'>
           Pompeia totem was a project for ItBringsArt, created as an interactive game for the immersive exhibition "Los últimos días de Pompeya".</p>
+          <Link href="https://www.mataderomadrid.org/programacion/los-ultimos-dias-de-pompeya" className='text-sm font-bold  text-white underline'>The exhibition is still on, you can buy tickets here</Link>
         <p className='text-sm mt-5'>The project consisted on two different websites:</p>
         <ul className='flex flex-col text-sm m-2'>
           <li className='my-1'>· Tablet UI project: Containing a short interactive test, for visitors to be able to find out to which God of Olimpus they are more alike
