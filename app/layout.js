@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import {Navigation} from './components/Navigation'
+import Footer from './components/Footer.jsx'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <div class="bg-gradient-to-r from-blue-950 to-slate-950 py-4  min-h-screen ">
         {children}
         </div>
+      <Footer/>
       </body>
     </html>
   )
