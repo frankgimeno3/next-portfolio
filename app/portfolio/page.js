@@ -1,9 +1,10 @@
 import Image from 'next/image';
-
+import Pompeia from "./projects/Pompeia.jsx"
 export default function Porfolio() {
   return (
     <div className='mt-8 relative'>
-      <div className='relative z-10 mx-24 px-24 text-center pt-14'>
+      <div className='relative z-10 '>
+        <div className='mx-24 px-24 text-center pt-14'>
         <p className="font-bold text-2xl text-sky-200 transform transition duration-1000 hover:scale-105">Portfolio</p>
         <p className='text-sm'>Below you will find my finished projects, with an explanation of the technologies used in their developement, and some details</p>
         <p className='text-sm'>Most of my projects are under developement though, as you will find in my <span className="font-bold">+100 </span>github repositories</p>
@@ -15,8 +16,9 @@ export default function Porfolio() {
         <button className='py-3 w-40 bg-sky-50 m-5 text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
           Mobile Apps
         </button>
-        <p>Pompeia totem</p>
-        <p>Pompeia printer</p>
+        </div>
+        <Pompeia/>
+ 
         <p>Giru.es</p>
         <p>Vidrioku.com</p>
         <p>Colornauts</p>
