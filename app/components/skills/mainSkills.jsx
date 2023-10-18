@@ -3,9 +3,9 @@
 
 import Image from "next/image"
 import React, { useState } from 'react';
-import Skillrendering from "./Skillrendering"
-import SkillNavigator from "./SkillNavigator"
-import Skillvar from "./Skillvar"
+import Skillrendering from "./skillrendering"
+import SkillNavigator from "./skillNavigator"
+import Skillvar from "./skillvar"
 
 
 

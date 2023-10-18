@@ -1,6 +1,7 @@
  
 'use client'
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 function Hero() {
@@ -20,19 +21,24 @@ function Hero() {
             </p>
             <div className='flex flex-row mt-5'>
               <div className=''>
+                <Link href={"https://www.linkedin.com/in/frankgimeno/"}>
                 <button className='py-3 w-40 bg-sky-50  text-xs rounded-lg shadow-white hover:scale-110 hover:bg-white text-gray-700 transition-transform duration-1000'>
                   Linkedin
                 </button>
+                </Link>
               </div>
               <div className='mx-4'>
+              <Link href={"https://github.com/frankgimeno3"}>               
                 <button className='py-3 w-40 bg-sky-50   text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
                   Github
                 </button>
+                 </Link>
               </div>
               <div>
+              <Link href={"https://www.linkedin.com/in/frankgimeno/"}>                
                 <button className='py-3 w-40 bg-sky-50   text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
                   Download my CV
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>
