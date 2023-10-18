@@ -5,10 +5,10 @@ const links = [{
   route: '/'
 }, {
   label: 'Portfolio',
-  route: '/Portfolio'
+  route: '/portfolio'
 }, {
   label: 'Contact',
-  route: '/Contactme'
+  route: '/contact'
 }]
 
 
