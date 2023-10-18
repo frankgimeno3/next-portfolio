@@ -18,10 +18,10 @@ function ContactMe() {
       </div>
       <div className='flex-1 flex flex-col my-auto'>
         <Image src={"/i3.png"} alt='profile i' width={300} height={300} className='mx-auto justify-center items-center px-auto rounded-full shadow-lgclassName=" hover:scale-110 transition-transform duration-1000"' />
-        <div className='flex flex-row mt-5 mx-auto'>
+        <div className='flex flex-row mt-1 mx-auto'>
           <a
             href="mailto:frankgimeno3@gmail.com"
-            target="_blank"
+            className="h-20 w-20   p-4"
           >
             <button >
               <Image src={"/social/gmail.png"} width={50} height={50} alt="" className=" hover:scale-110 transition-transform duration-1000" />
@@ -30,16 +30,16 @@ function ContactMe() {
 
           <a
             href="https://www.linkedin.com/in/frankgimeno/chat"
-            target="_blank"
+            className="h-20 w-20   p-1 "
           >
-            <button className='mx-3'>
-              <Image src={"/social/lkd.webp"} width={70} height={70} alt="" className=" hover:scale-110 transition-transform duration-1000" />
+            <button >
+              <Image src={"/social/lkd.webp"} width={90} height={90} alt="" className=" hover:scale-110 transition-transform duration-1000" />
             </button>
           </a>
 
           <a
             href="https://api.whatsapp.com/send?phone=+34636722518&text=Hi, I saw you portfolio and would be pleased to have a conversation with you."
-            target="_blank"
+            className="h-20 w-20   p-4"
           >
             <button >
               <Image src={"/social/whats.webp"} width={50} height={50} alt="" className=" hover:scale-110 transition-transform duration-1000" />
