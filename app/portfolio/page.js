@@ -1,10 +1,23 @@
+"use client"
 import Image from 'next/image';
 import Pompeia from "./projects/Pompeia.jsx"
 import Colornauts from "./projects/Colornauts.jsx"
 import Giru from "./projects/Giru.jsx"
 import Vidrioku from "./projects/Vidrioku.jsx"
+import { useState } from 'react';
+import Mobiledev from './Mobiledev.jsx';
 
 export default function Porfolio() {
+
+  const [topic, setTopic] = useState("webs")
+
+  const setWebs = ()=>{
+    setTopic("webs")
+  }
+  const setApps = ()=>{
+    setTopic("apps")
+  }
+
   return (
     <div className='mt-8 relative'>
       <div className='relative z-10 '>
@@ -15,18 +28,23 @@ export default function Porfolio() {
         <Image src={"/ghscreen1.png"} width={400} height={400} alt="" className="rounded-lg  mx-auto my-5 transform transition duration-1000 hover:scale-150 hover:border hover:border-gray-500" />
 
         <p>Please choose one</p>
-        <button className='py-3 w-40 bg-sky-50 m-5 text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
+        <button className='py-3 w-40 bg-sky-50 m-5 text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'
+                onClick={setWebs}>
           Web applications                </button>
-        <button className='py-3 w-40 bg-sky-50 m-5 text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'>
+        <button className='py-3 w-40 bg-sky-50 m-5 text-xs rounded-lg shadow hover:scale-110 hover-bg-white text-gray-700 transition-transform duration-1000'
+        onClick={setApps}>
           Mobile Apps
         </button>
         </div>
+        {topic == "webs" && 
+        <>
         <Pompeia/>
         <Giru/>
         <Vidrioku/>
- 
-      
         <Colornauts/>
+        </>
+      }
+        {topic == "apps" && <Mobiledev/>}
 
       </div>
       <video
