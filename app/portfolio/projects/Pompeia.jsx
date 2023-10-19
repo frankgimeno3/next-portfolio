@@ -30,14 +30,13 @@ function Pompeia() {
           <p className='text-xs text-center mt-3 italic mx-10'>Picture of the inmersive exhibition "Los últimos días de Pompeya"</p>
         </div>
       </div>
-      <div className='flex flex-row px-24 mx-24'>
-      <Image src={"/projects/totem1.png"} alt='profile i' width={500} height={500} className='ml-20 rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
-      <Image src={"/projects/totem2.png"} alt='profile i' width={500} height={500} className='ml-20 rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
+      <div className='flex flex-col md:flex-row md:px-24 md:mx-24 '>
+      <Image src={"/projects/totem1.png"} alt='profile i' width={500} height={500} className='my-1 md:my-0 ml-20 rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
+      <Image src={"/projects/totem2.png"} alt='profile i' width={500} height={500} className='my-1 md:my-0 ml-20 rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
       </div>
-      <div className='flex flex-row px-24 mx-24'>
-      <Image src={"/projects/totem3.png"} alt='profile i' width={500} height={500} className='ml-20 rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
-      <Image src={"/projects/printer1.png"} alt='profile i' width={500} height={500} className='ml-20 rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
-
+      <div className='flex flex-col md:flex-row md:px-24 md:mx-24 '>
+      <Image src={"/projects/totem3.png"} alt='profile i' width={500} height={500} className='my-1 md:my-0 ml-20 rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
+      <Image src={"/projects/printer1.png"} alt='profile i' width={500} height={500} className='my-1 md:my-0 ml-20 rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
       </div>
     </div>
   )

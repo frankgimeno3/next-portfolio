@@ -31,7 +31,7 @@ function Mobiledev() {
         </p>        
         <p className='text-sm mt-4'>
           As a backend, I can access public API's, or I can create my own using Express, connecting to my own databases, or with Next,
-          connecting to Firebase an creating a NextAuth authentication.
+          connecting to Firebase and creating a NextAuth authentication.
         </p>
       </div>
     </div>
