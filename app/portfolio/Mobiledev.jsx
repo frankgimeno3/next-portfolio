@@ -7,7 +7,7 @@ import Image from 'next/image';
 function Mobiledev() {
 
   return (
-    <div className='flex flex-row pl-24 py-10 text-sky-200 py-16  '>
+    <div className='flex flex-col md:flex-row pl-24 py-10 text-sky-200 py-16  '>
       <div className='flex-1 flex flex-row '>
         <Image src={"/projects/dados.png"} height={150} width={150} alt="" className='m-4 my-6  rounded-lg transform transition duration-1000 hover:scale-105' />
         <Image src={"/projects/xilofono.png"} height={150} width={150} alt="" className='m-4 my-6  rounded-lg transform transition duration-1000 hover:scale-105' />

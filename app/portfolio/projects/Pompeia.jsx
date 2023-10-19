@@ -6,9 +6,9 @@ import Link from 'next/link';
 function Pompeia() {
 
   return (
-    <div className='flex flex-col'>
-      <div className='flex flex-row pr-24 py-10 text-sky-200 pt-16  '>
-        <div className='flex-1 flex flex-col text-left pl-24 pr-14 mr-10 bg-white bg-opacity-20 py-10 rounded-r-lg'>
+    <div className='flex  flex-col flex-col'>
+      <div className='flex  flex-col md:flex-row md:pr-24 py-10 text-sky-200 pt-16  '>
+        <div className='flex-1 flex flex-col text-left md:pl-24 md:pr-14 px-10 md:mr-10 bg-white bg-opacity-20 py-10 md:rounded-r-lg'>
           <h1 className="font-bold text-2xl text-sky-200 transform transition duration-1000 hover:scale-105">
             Pompeia Totem Project
           </h1>
@@ -26,8 +26,8 @@ function Pompeia() {
 
         </div>
         <div className='flex-1 my-auto'>
-          <Image src={"/projects/pompeiamain.webp"} alt='profile i' width={500} height={500} className='mx-auto  justify-center items-center px-auto rounded-lg rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
-          <p className='text-xs text-center mt-3 italic'>Picture of the inmersive exhibition "Los últimos días de Pompeya"</p>
+          <Image src={"/projects/pompeiamain.webp"} alt='profile i' width={500} height={500} className='mx-auto  justify-center items-center px-auto  md:rounded-lg shadow-lg hover:scale-110 transition-transform duration-1000' />
+          <p className='text-xs text-center mt-3 italic mx-10'>Picture of the inmersive exhibition "Los últimos días de Pompeya"</p>
         </div>
       </div>
       <div className='flex flex-row px-24 mx-24'>

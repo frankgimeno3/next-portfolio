@@ -7,12 +7,12 @@ import Image from 'next/image';
 function Colornauts() {
 
   return (
-    <div className='flex flex-row pl-24 py-10 text-sky-200 py-16  '>
+    <div className='flex flex-col md:flex-row md:pl-24 py-10 text-sky-200 py-16  '>
       <div className='flex-1 '>
-        <Image src={"/colornauts.png"} height={600} width={600} alt="" className='m-4 my-6  rounded-lg transform transition duration-1000 hover:scale-105'
+        <Image src={"/colornauts.png"} height={600} width={600} alt="" className='md:m-4 md:my-6  md:rounded-lg transform transition duration-1000 hover:scale-105'
 
         />          </div>
-      <div className='flex-1 flex flex-col text-left pl-24 pr-14 w-full bg-white bg-opacity-20 py-10 rounded-l-lg'>
+      <div className='flex-1 flex flex-col text-left md:pl-24 md:pr-14  px-10  w-full bg-white bg-opacity-20 py-10 md:rounded-l-lg'>
         <h1 className="font-bold text-2xl text-sky-200 transform transition duration-1000 hover:scale-105">
           Colornauts
         </h1>
