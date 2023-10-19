@@ -6,7 +6,7 @@ import MyCustomers from './components/MyCustomers';
 export default function Home() {
   return (
     <div className='mt-8 relative'>
-      <div className='relative z-10'>
+      <div className='relative z-10 '>
         <Hero/>
         <MainSkills />
         <Aboutme/>

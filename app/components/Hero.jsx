@@ -44,7 +44,7 @@ function Hero() {
         </div>
       </div>
       <div className='flex-1 '>
-        <Image src={"/i3.png"} alt='profile i' width={300} height={300} className='mt-10 md:mt-1 mx-auto justify-center items-center px-auto rounded-full shadow-lg hover:scale-110 transition-transform duration-1000' />
+        <Image src={"/i3.png"} alt='profile i' width={300} height={300} className='my-8 md:mt-1 mx-auto justify-center items-center px-auto rounded-full shadow-lg hover:scale-110 transition-transform duration-1000' />
       </div>
     </div>
   )

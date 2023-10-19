@@ -6,9 +6,9 @@ import Image from 'next/image';
 function MyCustomers() {
 
   return (
-    <div className='mx-24 px-24'>
-    <div className='mx-24 px-24'>
-      <div className=' flex flex-col text-center  bg-white bg-opacity-20 pt-10 rounded-lg'>
+    <div className='md:mx-24 md:px-24'>
+    <div className='md:mx-24 md:px-24 mx-5'>
+      <div className='px-12 flex flex-col text-center  bg-white bg-opacity-20 pt-10 rounded-lg'>
         <h1 className="font-bold text-2xl text-sky-200 transform transition duration-1000 hover:scale-105">
           My Customers
         </h1>
