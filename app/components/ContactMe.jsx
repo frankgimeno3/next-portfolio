@@ -8,8 +8,8 @@ import Email from "./Email.jsx"
 function ContactMe() {
 
   return (
-    <div className='flex flex-row pr-24 py-10 text-sky-200 pt-16  '>
-      <div className='flex-1 flex flex-col text-left pl-24 pr-14 mr-10 bg-white bg-opacity-20 pt-10 rounded-r-lg'>
+    <div className='flex flex-col md:flex-row md:pr-24 md:py-10 pr-4 py-4 text-sky-200 md:pt-16 pt-8  '>
+      <div className='flex-1 flex flex-col text-left pl-12 pr-10 md:pl-24 md:pr-14 mr-10 bg-white bg-opacity-20 pt-10 rounded-r-lg'>
         <h1 className="font-bold text-2xl text-sky-200 transform transition duration-1000 hover:scale-105">
           Contact Me
         </h1>
@@ -17,7 +17,7 @@ function ContactMe() {
 
       </div>
       <div className='flex-1 flex flex-col my-auto'>
-        <Image src={"/i3.png"} alt='profile i' width={300} height={300} className='mx-auto justify-center items-center px-auto rounded-full shadow-lgclassName=" hover:scale-110 transition-transform duration-1000"' />
+        <Image src={"/i3.png"} alt='profile i' width={300} height={300} className='mt-12 md:mt-1 mx-auto justify-center items-center px-auto rounded-full shadow-lgclassName=" hover:scale-110 transition-transform duration-1000"' />
         <div className='flex flex-row mt-1 mx-auto'>
           <a
             href="mailto:frankgimeno3@gmail.com"
